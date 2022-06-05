@@ -1,9 +1,10 @@
 # challenge3passwordgenerator
 This is the repo for random password generator
+![screen-shot-challenge3](./assets/images/Screenshotchallenge3a.jpg)
 1. copied starter code.
 2. updated href for both style sheets and javascript.
 3. declared variables.
 4. prompt function for charaterlength, upper case, lower case, special characters and numbers.
 5. created generate password function.
 6. Updated write password function.
-![screen-shot-challenge3](./assets/images/Screenshot challenge 3 a.jpg)
+
