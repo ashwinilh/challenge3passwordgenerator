@@ -6,4 +6,4 @@ This is the repo for random password generator
 4. prompt function for charaterlength, upper case, lower case, special characters and numbers.
 5. created generate password function.
 6. Updated write password function.
-7. [screen-shot-challenge3](./assets/images/Screenshot challenge 3 a.jpg)
+![screen-shot-challenge3](./assets/images/Screenshot challenge 3 a.jpg)
