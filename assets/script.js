@@ -57,5 +57,9 @@ function getPrompts() {
     if (confirm("Would you like numbers letters in your password?")) {
       choiceArr = choiceArr.concat(numberArr);
     }
+    if (choiceArr.length === 0){
+        alert("You have to select atleast one character type!");
+        return false;
+    }
     return true;
   }
