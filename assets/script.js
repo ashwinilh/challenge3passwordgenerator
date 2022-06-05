@@ -23,6 +23,15 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+function generatePassword() {
+    var password = "";
+    for (var i = 0; i < characterLength; i++) {
+      var randomIndex = Math.floor(Math.random() * choiceArr.length);
+      password = password + choiceArr[randomIndex];
+    }
+    return password;
+  }
+
 function getPrompts() {
     choiceArr = [];
     characterLength = parseInt(prompt("How many characters do you want your password to be? (8-128 characters)"));
